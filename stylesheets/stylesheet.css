@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background: #151515 url("../images/bkg.png") 0 0;
-  color: #eaeaea;
+  color: blue;
+  background-color: white;
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -49,7 +50,7 @@ header h1 {
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  /*color: #b5e853;*/
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -65,7 +66,7 @@ header h1:before {
 header h2 {
   font-size: 18px;
   font-weight: 300;
-  color: #666;
+  /*color: #666;*/
 }
 
 #downloads .btn {
@@ -88,7 +89,7 @@ section img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  /*color: #b5e853;*/
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -120,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 #main_content h6 {
   font-size: 12px;
   text-transform: uppercase;
-  color: #999;
+  /*color: #999;*/
   margin: 0 0 5px 0;
 }
 
@@ -137,14 +138,14 @@ ul li:before {
   content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
-  color: #b5e853;
+  /*color: #b5e853;*/
   margin-left: -37px;
   margin-right: 21px;
   line-height: 16px;
 }
 
 blockquote {
-  color: #aaa;
+  /*color: #aaa;*/
   padding-left: 10px;
   border-left: 1px dotted #666;
 }
@@ -154,7 +155,7 @@ pre {
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px;
   font-size: 14px;
-  color: #b5e853;
+  /*color: #b5e853;*/
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -209,18 +210,18 @@ hr {
   background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
 }
 
-.btn .icon {
+/*.btn .icon {
   display: inline-block;
   width: 16px;
   height: 16px;
   margin: 1px 8px 0 0;
   float: left;
-}
+}*/
 
-.btn-github .icon {
+/*.btn-github .icon {
   opacity: 0.6;
   background: url("../images/blacktocat.png") 0 0 no-repeat;
-}
+}*/
 
 /* Links
    a, a:hover, a:visited
